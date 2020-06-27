@@ -1,5 +1,36 @@
 https://www.youtube.com/watch?v=VAYo_8ADfEo
 
 https://youtu.be/VAYo_8ADfEo?t=752
+https://youtu.be/VAYo_8ADfEo?t=1338
+https://youtu.be/VAYo_8ADfEo?t=1437
 
 3.11 - gradient color to cells
+
+
+Named Ranges
+Exp_Amount
+=OFFSET('Expenses List'!$C$3,1,,COUNTA('Expenses List'!$C$3:$C$9999)-1,1)
+
+Exp_Date
+=OFFSET('Expenses List'!$B$3,1,,COUNTA('Expenses List'!$B$3:$B$9999)-1,1)
+
+Exp_type
+=OFFSET('Expenses List'!$D$3,1,,COUNTA('Expenses List'!$D$3:$D$9999)-1,1)
+
+Exp_Vehichle
+=OFFSET('Expenses List'!$A$3,1,,COUNTA('Expenses List'!$A$3:$A$9999)-1,1)
+
+ExpenseTypes
+='Vehicle Expense Tracker'!$A$19:$A$25
+
+Fuel_Amount
+=OFFSET('Fuel Log'!$C$3,1,,COUNTA('Fuel Log'!$C$3:$C$999)-1,1)
+
+Fuel_Date
+=OFFSET('Fuel Log'!$B$3,1,,COUNTA('Fuel Log'!$B$3:$B$999)-1,1)
+
+Fuel_Vehicle
+=OFFSET('Fuel Log'!$A$3,1,,COUNTA('Fuel Log'!$A$3:$A$999)-1,1)
+
+Vehicles
+=OFFSET('Vehicle List'!$A$3,1,,COUNTA('Vehicle List'!$A$3:$A$13)-1,1)
