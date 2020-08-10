@@ -1,8 +1,26 @@
+Hotel Booking is Next
+
 https://www.youtube.com/watch?v=VAYo_8ADfEo
 
 https://youtu.be/VAYo_8ADfEo?t=752
 https://youtu.be/VAYo_8ADfEo?t=1338
 https://youtu.be/VAYo_8ADfEo?t=1437
+https://youtu.be/VAYo_8ADfEo?t=1897
+https://youtu.be/VAYo_8ADfEo?t=2429
+https://youtu.be/VAYo_8ADfEo?t=2903
+https://youtu.be/VAYo_8ADfEo?t=3780
+https://youtu.be/VAYo_8ADfEo?t=4299
+https://youtu.be/VAYo_8ADfEo?t=4567
+
+https://youtu.be/dsL-yd4ROIw?t=852
+https://youtu.be/dsL-yd4ROIw?t=1516
+
+https://youtu.be/dsL-yd4ROIw?t=2224
+https://youtu.be/dsL-yd4ROIw?t=2828
+
+https://youtu.be/dsL-yd4ROIw?t=3497
+
+https://youtu.be/dsL-yd4ROIw?t=3996
 
 3.11 - gradient color to cells
 
@@ -34,3 +52,43 @@ Fuel_Vehicle
 
 Vehicles
 =OFFSET('Vehicle List'!$A$3,1,,COUNTA('Vehicle List'!$A$3:$A$13)-1,1)
+
+Conditional Formatting to make odd rows of a different formatting
+=mod(row(),2)=0
+
+T
+
+use right click on an element and choose Move but dont size with cells
+
+
+
+ExcelInfo:
+ How to include datavalidation Data->DataValidation  (select list and =namedrange)
+
+ .Range("F6,H6,F8,H8,F10,H10,F12:h15").ClearContents
+
+ Positioning a picture
+
+ With .Shapes("VehPic")
+        LockAspectRatio = msoCTrue
+        If .Height > .Width Then Height = 200 Else Width = 120
+        .Left = Worksheets("Vehicle Expense Tracker").Left + 20
+        .Top = Worksheets("Vehicle Expense Tracker").Top
+        .Visible = msoCTrue
+                
+    End With
+
+'//how to fire functions on selection
+ If Target.CountLarge > 1 Then Exit Sub
+    If Not Intersect(Target, Range("D6:D16")) Is Nothing And Range("D" & Target.Row).Value <> Empty Then
+      Range("B6").Value = Target.Row      
+      Vehicle_Load
+    End If
+
+Formatting cells that only contain blank
+	Conditional Formatting>Format only cells that contain > select blank from the drop down at the bottom
+
+Inserting Pie Chart:
+    select all data and insert->Pie chart
+    Right click on chart and 'add data labels' (this adds data valuew)
+    Right click  on any datalabel 'format data labels', click on 'category name' radio button (this adds data category)
