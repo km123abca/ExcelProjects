@@ -1,0 +1,34 @@
+Making three horizontal tabs
+3.00
+
+Insert > shapes
+choose Retangle
+Cntrl + D to duplicate it 5 times (6 boxes in total)
+3.15 -->
+
+Click on select objects on top toolbar
+Drag and select 3 of the newly created rec boxes and seperate them to the right of the first cluster
+Right click on the first cluster
+Format > Fill > Gradient fill > Choose 2 gradient stops (can click and delete unwanted stops)
+Click on each stop and choose a color 
+4.14
+
+Drag and select all boxes
+format > shapeoutline > weight  , and bring it down to a low value to narrow the border
+
+4.23
+select the right 3 tabs
+click on format > shape styles > select a theme fill
+
+5.01
+Click on rounded rectangle shape from the shape palette (on leftmost side)
+Shape Fill(middle top)> no fill
+Shape outline > weight  , choose the minimum
+
+5.49
+Drag and select all the shapes 
+right click > size and properties > Properties > choose Dont move or size with cells
+
+7.20 
+select all leftmost tabs and choose bold text,black font
+select all rightmost tabs and choose bold text,white font
